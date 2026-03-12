@@ -27,6 +27,7 @@ list_of_file = [
     ".gitignore",
     "main.py",
     "research/trials.ipynb",
+    "model/model.h5",
     "templates/index.html" 
 ]
 for file in list_of_file:
