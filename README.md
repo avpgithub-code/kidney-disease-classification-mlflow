@@ -14,7 +14,7 @@ How to run?
 STEPS:
 Clone the repository
 
-https://github.com/krishnaik06/Kidney-Disease-Classification-Deep-Learning-Project
+(https://github.com/avpgithub-code/kidney-disease-classification-mlflow)
 STEP 01- Create a conda environment after opening the repository
 conda create -n cnncls python=3.8 -y
 conda activate cnncls
