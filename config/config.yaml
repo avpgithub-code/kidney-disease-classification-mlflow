@@ -4,7 +4,7 @@ data_ingestion:
   root_dir: artifacts/data_ingestion
   source_URL: nazmul0087/ct-kidney-dataset-normal-cyst-tumor-and-stone
   local_data_file: artifacts/data_ingestion/data.zip
-  unzip_dir: artifacts/data_ingestion
+  unzip_dir: artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone
 
 prepare_base_model:
   root_dir: artifacts/prepare_base_model
@@ -13,4 +13,5 @@ prepare_base_model:
 
 training:
   root_dir: artifacts/training
-  trained_model_path: artifacts/training/model.h5
+  training_data_path: artifacts/data_ingestion/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone/CT-KIDNEY-DATASET-Normal-Cyst-Tumor-Stone
+  trained_model_path: artifacts/training/model.keras
